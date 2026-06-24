@@ -6,8 +6,10 @@
     visited를 초기화한 후 레버가 있는 장소를 True로 바꾼다.
     추후 목표 1과 같이 방문한 장소는 true로 바꾼다
 
-시간복잡도 O(V+E) = V + 4V = 5V = 5(100*100) = 50000
-자료구조 queue = int[][] visited = bool[][]
+- 시간복잡도
+O(N*M) = N*M*4*2 = 80000
+- 자료구조
+queue = int[][] visited = bool[][]
 '''
 
 def solution(maps):
